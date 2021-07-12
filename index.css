@@ -849,6 +849,9 @@ input[type=name] {
     font-size: 20px;
     padding-right: 5rem;
   }
+  .myprofile {
+    height: 100vh;
+  }
   /*Projects*/
 
   .prj-git, .prj-view {
