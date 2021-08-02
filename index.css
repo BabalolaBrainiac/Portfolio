@@ -240,7 +240,6 @@ html {
   padding-bottom: 1rem;
 }
 .f-stop {
-  color: #ff005a;
   font-size: 5rem;
 }
 .fstop-2 {
@@ -962,7 +961,13 @@ input[type="name"] {
     width: 70vh;
   }
   .sidebar {
-    height: 70vh;
+    height: 100vh;
+  }
+  .d2 {
+    margin-left: 14rem;
+  }
+  .project-head {
+    margin-top: 2rem;
   }
 }
 
@@ -998,12 +1003,21 @@ input[type="name"] {
   .prj-box-desk {
     margin-left: 8rem;
   }
+  .project-head {
+    margin-top: 2rem;
+  }
   .skills {
     margin-left: 3rem;
   }
   .main {
     width: 100vh;
     height: 100vh;
+  }
+  html {
+    width: auto;
+  }
+  .d2 {
+    margin-left: 6rem;
   }
 }
 
@@ -1069,12 +1083,34 @@ input[type="name"] {
   }
 }
 
+@media screen and (max-width: 411px) {
+  .sidebar {
+    height: 70vh;
+  }
+  .d2 {
+    margin-left: 7rem;
+  }
+  .d3 {
+    margin-left: 1rem;
+  }
+  .c3 {
+    margin-left: -7rem;
+  }
+  .c4 {
+    margin-left: -1rem;
+  }
+  .c5 {
+    margin-left: 0.5rem;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .contact-options {
     margin-right: -9rem;
   }
   .project-head {
     margin-top: 1rem;
+    margin-left: 2rem;
   }
   .navbar-toggler {
     margin-right: 1rem;
@@ -1104,7 +1140,7 @@ input[type="name"] {
     width: 40vh;
   }
   .sidebar {
-    height: 70vh;
+    height: 100vh;
   }
   .desk2 {
     margin-left: 6rem;
@@ -1118,5 +1154,28 @@ input[type="name"] {
   }
   .c-one {
     margin-bottom: 5rem;
+  }
+  .c3 {
+    margin-left: -1rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .sidebar {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .skill-head {
+    font-size: 35px;
+  }
+  .sidebar {
+    height: 100vh;
+  }
+  .gr {
+    visibility: hidden;
+  }
+  .c3 {
+    margin-left: -1rem;
   }
 }
